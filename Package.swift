@@ -13,6 +13,19 @@ let package = Package(
                 "FirebaseCoreDiagnostics",
                 "GoogleUtilities"
             ]),
+         .library(
+            name: "Firebase",
+            targets: [
+                "FirebaseAnalytics",
+                "FirebaseCore",
+                "FirebaseCoreDiagnostics",
+                "FirebaseInstallations",
+                "GoogleAppMeasurement",
+                "GoogleDataTransport",
+                "GoogleUtilities",
+                "nanopb",
+                "PromisesObjC",
+            ]),
         .library(
             name: "FirebaseAnalytics",
             targets: [
