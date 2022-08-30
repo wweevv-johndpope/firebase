@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Firebase",
+    name: "FirebaseAnalytics",
     products: [
         .library(
             name: "FirebaseCore",
